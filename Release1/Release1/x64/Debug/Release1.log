@@ -1,0 +1,116 @@
+﻿Сборка начата 05.12.2022 20:16:24.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\Влад\source\repos\Release1\Release1\Release1.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\Release1.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Release1.cpp
+         Release1.cpp
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(43,25): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "j"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(43,39): error C2059: синтаксическая ошибка: )
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(44,28): error C2059: синтаксическая ошибка: ;
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(46,27): error C2065: j: необъявленный идентификатор
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(50,37): error C2065: j: необъявленный идентификатор
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(59,37): error C2065: j: необъявленный идентификатор
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(78,5): error C2059: синтаксическая ошибка: for
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(78,5): error C2143: синтаксическая ошибка: отсутствие ")" перед ";"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(78,23): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(78,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(78,37): error C2143: синтаксическая ошибка: отсутствие ";" перед "++"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(78,37): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(78,36): error C2086: int i: переопределение
+       C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(78): message : см. объявление "i"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(78,39): error C2059: синтаксическая ошибка: )
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(79,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(79,5): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(82,10): error C2143: синтаксическая ошибка: отсутствие ";" перед "<<"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(82,10): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(84,10): error C2143: синтаксическая ошибка: отсутствие ";" перед "<<"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(84,10): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(84,5): error C2086: int cout: переопределение
+       C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(82): message : см. объявление "cout"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(89,1): error C2059: синтаксическая ошибка: }
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(89,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(95,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(95,14): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(195,7): error C2872: cout: неоднозначный символ
+       C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(82,5): message : может быть "int cout"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\iostream(40,57): message : или       "std::ostream std::cout"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(195,7): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [43]"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(195,99): error C2563: несоответствие в списке формальных параметров
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(195,99): error C2568: <<: не удается разрешить перегрузку функции
+       C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(195,99): message : может быть "std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(196,7): error C2872: cout: неоднозначный символ
+       C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(82,5): message : может быть "int cout"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\iostream(40,57): message : или       "std::ostream std::cout"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(196,7): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [47]"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(196,104): error C2563: несоответствие в списке формальных параметров
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(196,104): error C2568: <<: не удается разрешить перегрузку функции
+       C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(196,104): message : может быть "std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(197,7): error C2872: cout: неоднозначный символ
+       C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(82,5): message : может быть "int cout"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\iostream(40,57): message : или       "std::ostream std::cout"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(197,7): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [30]"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(197,69): error C2563: несоответствие в списке формальных параметров
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(197,69): error C2568: <<: не удается разрешить перегрузку функции
+       C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(197,69): message : может быть "std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(198,7): error C2872: cout: неоднозначный символ
+       C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(82,5): message : может быть "int cout"
+       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\iostream(40,57): message : или       "std::ostream std::cout"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(198,7): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [14]"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(198,42): error C2563: несоответствие в списке формальных параметров
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(198,42): error C2568: <<: не удается разрешить перегрузку функции
+       C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(198,42): message : может быть "std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)"
+     1>C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(209,13): error C3861: Input: идентификатор не найден
+     1>Сборка проекта "C:\Users\Влад\source\repos\Release1\Release1\Release1.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\Влад\source\repos\Release1\Release1\Release1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(43,25): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "j"
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(43,39): error C2059: синтаксическая ошибка: )
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(44,28): error C2059: синтаксическая ошибка: ;
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(46,27): error C2065: j: необъявленный идентификатор
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(50,37): error C2065: j: необъявленный идентификатор
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(59,37): error C2065: j: необъявленный идентификатор
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(78,5): error C2059: синтаксическая ошибка: for
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(78,5): error C2143: синтаксическая ошибка: отсутствие ")" перед ";"
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(78,23): error C2143: синтаксическая ошибка: отсутствие ";" перед "<"
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(78,23): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(78,37): error C2143: синтаксическая ошибка: отсутствие ";" перед "++"
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(78,37): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(78,36): error C2086: int i: переопределение
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(78,39): error C2059: синтаксическая ошибка: )
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(79,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(79,5): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(82,10): error C2143: синтаксическая ошибка: отсутствие ";" перед "<<"
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(82,10): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(84,10): error C2143: синтаксическая ошибка: отсутствие ";" перед "<<"
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(84,10): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(84,5): error C2086: int cout: переопределение
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(89,1): error C2059: синтаксическая ошибка: }
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(89,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(95,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(95,14): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(195,7): error C2872: cout: неоднозначный символ
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(195,7): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [43]"
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(195,99): error C2563: несоответствие в списке формальных параметров
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(195,99): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(196,7): error C2872: cout: неоднозначный символ
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(196,7): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [47]"
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(196,104): error C2563: несоответствие в списке формальных параметров
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(196,104): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(197,7): error C2872: cout: неоднозначный символ
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(197,7): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [30]"
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(197,69): error C2563: несоответствие в списке формальных параметров
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(197,69): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(198,7): error C2872: cout: неоднозначный символ
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(198,7): error C2297: "<<": недопустимо, поскольку тип правого операнда — "const char [14]"
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(198,42): error C2563: несоответствие в списке формальных параметров
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(198,42): error C2568: <<: не удается разрешить перегрузку функции
+         C:\Users\Влад\source\repos\Release1\Release1\Release1.cpp(209,13): error C3861: Input: идентификатор не найден
+
+    Предупреждений: 0
+    Ошибок: 42
+
+Прошло времени 00:00:01.29
