@@ -3,6 +3,26 @@ body {
     padding: 0;
     
   }
+
+  .page-title{
+    font-size: 50px;
+  }
+  .page-goal{
+    font-size: 40px;
+  }
+
+  figure{
+    display: block;
+  }
+  .page-description{
+    font-style: italic;
+  }
+
+  .per1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
   
   a {
     color: #424242;
