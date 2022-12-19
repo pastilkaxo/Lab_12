@@ -162,3 +162,9 @@ body {
     }
   }
  
+.vera {
+  float: right;
+  display: block;
+
+}
+.github a:hover {background: #191919; color: #fff;}
