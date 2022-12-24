@@ -10,6 +10,11 @@ body {
   .page-goal{
     font-size: 40px;
   }
+  .page-data{
+    color: red;
+    font-style: italic;
+    padding: 20px;
+  }
 
   figure{
     display: block;
@@ -105,7 +110,7 @@ body {
     font-weight: 500;
     color: #424242;
   }
-  nav ul li a.active {
+  nav ul li a:active {
     color: #3D5AFE;
   }
   nav ul li a:active {
@@ -165,6 +170,43 @@ body {
 .vera {
   float: right;
   display: block;
+  
 
 }
-.github a:hover {background: #191919; color: #fff;}
+
+
+.mod {
+  display: block;
+
+}
+.mod ul {
+  list-style-type: none;
+}
+.mod ul li a {
+  font-size: 36px
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+.show {display: block;}

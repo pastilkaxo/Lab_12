@@ -3,6 +3,8 @@
 #include <time.h>
 #include <iomanip>
 #include <Windows.h>
+#include <fstream>
+#include <string>
 
 using namespace std;
 
@@ -39,16 +41,36 @@ void timer(int hours, int minutes, int seconds) {
 	}
 }
 
+
+void files()
+{
+	setlocale(LC_ALL, "Russian");
+	string n;
+	cout << "Введите полное имя файла с расширением .txt , если он находится в папке программы / адрес на .txt файл на компьютере : " << endl;
+	cin >> n;
+	
+	ifstream fin(n);
+	if (!fin) {
+		cout << "file is not present";
+	}
+	string s;
+	getline(fin, s);
+
+	cout << s << endl;
+
+
+}
+
 int main() {
 	SetConsoleCP(1251);
 	setlocale(LC_ALL, "Russian");
 	int number;
 	cout << "Выберите проект который хотите посмотреть:\n"
 		<< "1 - Таймер\n"
-		<< "2 - Мама\n"
-		<< "3 - Папа\n"
-		<< "4 - Я\n"
-		<< "5 - И счастливая семья\n"
+		<< "2 - Программа для чтения текстовых файлов\n"
+		<< "3 - \n"
+		<< "4 - \n"
+		<< "5 - \n"
 		<< "6 - Выход" << endl;
 	cin >> number;
 
@@ -71,6 +93,8 @@ int main() {
 		timer(hours, minutes, seconds);
 		break;
 	case 2:
+		system("cls");
+		files();
 		break;
 	case 3:
 		break;
@@ -80,7 +104,7 @@ int main() {
 		break;
 	case 6:
 		cout << "Выход" << endl;
-		return;
+		break;
 	default:
 		cout << "Неверный выбор" << endl;
 		break;
