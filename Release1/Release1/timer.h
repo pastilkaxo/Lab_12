@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <Windows.h>
 #include <iomanip>
 
@@ -6,7 +6,7 @@ using namespace std;
 
 void displayClock(int hours, int minutes, int seconds) {
 	system("cls");
-	cout << setfill(' ') << setw(49) << "Îáðàòíûé òàéìåð\n";
+	cout << setfill(' ') << setw(49) << "ÐžÐ±Ñ€Ð°Ñ‚Ð½Ñ‹Ð¹ Ñ‚Ð°Ð¹Ð¼ÐµÑ€\n";
 	cout << setfill(' ') << setw(55) << " ==========================\n";
 	cout << setfill(' ') << setw(29);
 	cout << "| " << setfill('0') << setw(2) << hours << " hrs / ";
@@ -23,7 +23,7 @@ void timer(int hours, int minutes, int seconds) {
 		if (seconds == 0) {
 			if (hours == 0 && minutes == 0 && seconds == 0) {
 				displayClock(hours, minutes, 0);
-				cout << "Âðåìÿ âûøëî" << endl;
+				cout << "Ð’Ñ€ÐµÐ¼Ñ Ð²Ñ‹ÑˆÐ»Ð¾" << endl;
 				return;
 			}
 			else if (minutes == 0 && seconds == 0) {
@@ -44,15 +44,15 @@ void timerOutput() {
 	int hours, minutes, seconds;
 	system("cls");
 	do {
-		cout << "Ââåäèòå ÷àñû: ";
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð°ÑÑ‹: ";
 		cin >> hours;
 	} while (hours < 0);
 	do {
-		cout << "Ââåäèòå ìèíóòû: ";
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¼Ð¸Ð½ÑƒÑ‚Ñ‹: ";
 		cin >> minutes;
 	} while (minutes < 0);
 	do {
-		cout << "Ââåäèòå ñåêóíäû: ";
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐµÐºÑƒÐ½Ð´Ñ‹: ";
 		cin >> seconds;
 	} while (seconds < 0);
 

@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <fstream>
 #include <string>
 
@@ -7,7 +7,7 @@ using namespace std;
 void files() {
 	setlocale(LC_ALL, "Russian");
 	string n;
-	cout << "Ââåäèòå ïîëíîå èìÿ ôàéëà ñ ðàñøèðåíèåì .txt , åñëè îí íàõîäèòñÿ â ïàïêå ïðîãðàììû / àäðåñ íà .txt ôàéë íà êîìïüþòåðå : " << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ð¾Ð»Ð½Ð¾Ðµ Ð¸Ð¼Ñ Ñ„Ð°Ð¹Ð»Ð° Ñ Ñ€Ð°ÑÑˆÐ¸Ñ€ÐµÐ½Ð¸ÐµÐ¼ .txt , ÐµÑÐ»Ð¸ Ð¾Ð½ Ð½Ð°Ñ…Ð¾Ð´Ð¸Ñ‚ÑÑ Ð² Ð¿Ð°Ð¿ÐºÐµ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñ‹ / Ð°Ð´Ñ€ÐµÑ Ð½Ð° .txt Ñ„Ð°Ð¹Ð» Ð½Ð° ÐºÐ¾Ð¼Ð¿ÑŒÑŽÑ‚ÐµÑ€Ðµ : " << endl;
 	cin >> n;
 
 	ifstream fin(n);
