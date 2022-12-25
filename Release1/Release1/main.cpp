@@ -39,6 +39,7 @@ void main() {
 			timerOutput();
 			break;
 		case 5:
+			calendar();
 			break;
 		case 6:
 			cout << "Выход" << endl;
