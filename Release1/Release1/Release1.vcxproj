@@ -127,14 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="calendarWithReminder.h" />
-    <ClInclude Include="numberTranslation.h" />
-    <ClInclude Include="readingFiles.h" />
-    <ClInclude Include="simpleСalculator.h" />
-    <ClInclude Include="timer.h" />
+    <ClCompile Include="Release1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
