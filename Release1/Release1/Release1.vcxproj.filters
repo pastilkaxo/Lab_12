@@ -29,7 +29,7 @@
     <ClInclude Include="calendarWithReminder.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="readingFiles.h">
+    <ClInclude Include="calendarOnYear.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="numberTranslation.h">
