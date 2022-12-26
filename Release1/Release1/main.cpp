@@ -28,6 +28,8 @@ void main() {
 		cin >> choice;
 		switch (choice) {
 		case 1:
+			system("cls");
+			calculator();
 			break;
 		case 2:
 			system("cls");
