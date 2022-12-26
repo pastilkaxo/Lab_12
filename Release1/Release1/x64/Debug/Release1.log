@@ -1,7 +1,7 @@
-﻿Сборка начата 26.12.2022 3:25:40.
+﻿Сборка начата 26.12.2022 17:08:10.
 Уровень детализации журнала: Normal.     1>Проект "C:\Users\Влад\Desktop\trpo\Lab_12\Release1\Release1\Release1.vcxproj" в узле 2 (целевые объекты Build).
      1>InitializeBuildStatus:
-         Создание "x64\Debug\Release1.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\Release1.tlog\unsuccessfulbuild".
        ClCompile:
          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt main.cpp
          main.cpp
@@ -25,4 +25,4 @@
     Предупреждений: 2
     Ошибок: 0
 
-Прошло времени 00:00:01.10
+Прошло времени 00:00:03.43

@@ -131,7 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calendarWithReminder.h" />
-    <ClInclude Include="numberTranslation.h" />
+    <ClInclude Include="filesReader.h" />
     <ClInclude Include="calendarOnYear.h" />
     <ClInclude Include="simpleСalculator.h" />
     <ClInclude Include="timer.h" />
